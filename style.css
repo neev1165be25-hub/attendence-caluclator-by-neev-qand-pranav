@@ -40,7 +40,14 @@ button:hover {
 .about-icon {
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 10px;
+    font-size: 26px;
+    cursor: pointer;
+}
+.about-icon2 {
+    position: absolute;
+    top: 20px;
+    right: 100px;
     font-size: 26px;
     cursor: pointer;
 }
@@ -54,8 +61,7 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-
-/* Active popup */
+ 
 .about-box.active {
     display: flex;
 }
@@ -63,12 +69,13 @@ button:hover {
 /* Content card */
 .about-content {
     background: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 12px;
     width: 280px;
     text-align: center;
     animation: fadeIn 0.3s ease;
 }
+ 
 
 /* Profile image */
 .profile-img {
@@ -77,9 +84,19 @@ button:hover {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+.profile-img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 
 /* Bio */
 .bio {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.bio2 {
     font-size: 14px;
     margin: 10px 0;
 }
@@ -99,5 +116,4 @@ button:hover {
 .social-links a:hover {
     background: #ddd;
 }
-
  
